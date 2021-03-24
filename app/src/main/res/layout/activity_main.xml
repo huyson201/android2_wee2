@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_gravity="center"
+
+    android:background="@drawable/black_border"
+    >
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/black_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textDirection="rtl"
+            android:textSize="45sp"
+            android:hint="@string/btn_result_hint"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:id="@+id/txt_result_sreen"
+            />
+    </LinearLayout>
+    <LinearLayout
+       style="@style/btn_Layout_style"
+        >
+    <Button
+        style="@style/btn_style"
+        android:id="@+id/num1"
+        android:text="@string/btn_num1"
+
+        />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num2"
+            android:id="@+id/num2"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num3"
+            android:id="@+id/num3"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_cong"
+            android:id="@+id/btn_cong"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/btn_Layout_style"
+        >
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num4"
+            android:id="@+id/num4"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num5"
+
+            android:id="@+id/num5"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num6"
+            android:id="@+id/num6"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_tru"
+            android:id="@+id/btn_tru"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/btn_Layout_style">
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num7"
+            android:id="@+id/num7"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num8"
+            android:id="@+id/num8"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num9"
+            android:id="@+id/num9"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_nhan"
+            android:id="@+id/btn_nhan"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/btn_Layout_style">
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_num0"
+            android:id="@+id/num0"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_c"
+            android:id="@+id/btn_c"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_bang"
+            android:id="@+id/btn_bang"
+
+            />
+        <Button
+            style="@style/btn_style"
+            android:text="@string/btn_chia"
+            android:id="@+id/btn_chia"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

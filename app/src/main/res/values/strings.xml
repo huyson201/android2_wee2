@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StyleAndTheme</string>
+    <string name="btn_num0">0</string>
+    <string name="btn_num1">1</string>
+    <string name="btn_num2">2</string>
+    <string name="btn_num3">3</string>
+    <string name="btn_num4">4</string>
+    <string name="btn_num5">5</string>
+    <string name="btn_num6">6</string>
+    <string name="btn_num7">7</string>
+    <string name="btn_num8">8</string>
+    <string name="btn_num9">9</string>
+    <string name="btn_cong">+</string>
+    <string name="btn_tru">-</string>
+    <string name="btn_nhan">*</string>
+    <string name="btn_chia">/</string>
+    <string name="btn_c">C</string>
+    <string name="btn_bang">=</string>
+    <string name="btn_result_hint">0</string>
+
+</resources>
